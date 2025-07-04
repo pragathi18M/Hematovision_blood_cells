@@ -1,0 +1,39 @@
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    background:#f4f6fa;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+.card{
+    background:white;
+    padding:2rem 3rem;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,.1);
+    text-align:center;
+}
+input[type="file"]{
+    margin:1rem 0;
+}
+button{
+    padding:.6rem 1.4rem;
+    border:none;
+    border-radius:6px;
+    background:#0063ff;
+    color:#fff;
+    cursor:pointer;
+}
+.preview{
+    width:320px;
+    margin:1rem 0;
+    border-radius:8px;
+    box-shadow:0 0 8px rgba(0,0,0,.12);
+}
+.back{
+    display:inline-block;
+    margin-top:1rem;
+    text-decoration:none;
+    color:#0063ff;
+}
